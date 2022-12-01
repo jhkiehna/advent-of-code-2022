@@ -1,6 +1,6 @@
 // Part 1
 
-export function mostCaloriesCarriedBySingleElf(input: string) {
+export function mostCaloriesCarriedBySingleElf(input: string): number {
   const sums = input
     .split(/\n\n/)
     .map((g) => g.split(/\n/).map((n) => Number(n)))
@@ -11,7 +11,7 @@ export function mostCaloriesCarriedBySingleElf(input: string) {
 
 // Part 2
 
-export function totalCaloriesOfTopThree(input: string) {
+export function totalCaloriesOfTopThree(input: string): number {
   const sums = input
     .split(/\n\n/)
     .map((g) => g.split(/\n/).map((n) => Number(n)))
